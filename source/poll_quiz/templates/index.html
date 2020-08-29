@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Hi, there{% endblock %}
+
+{% block content %}
+<h1>Опросы</h1>
+    {% for poll in polls %}
+        <h3><a href="{% url 'poll_view' poll.pk %}"></a></h3>
+        <p>Вопрос: {{ poll.question }}</p>
+        <p>Дата: {{ poll.datetime }}</p>
+        <p><a href="{% url 'poll_edit' poll.pk %}" class="btn">EDIT</a></p>
+        <p><a href="{% url 'poll_delete' poll.pk %}" class="btn">DELETE</a></p>
+    {% endfor %}
+{% endblock %}
