@@ -1,0 +1,132 @@
+[
+{
+  "model": "poll_quiz.poll",
+  "pk": 1,
+  "fields": {
+    "question": "What is your name?",
+    "datetime": "2020-08-29T06:16:02.608Z"
+  }
+},
+{
+  "model": "poll_quiz.poll",
+  "pk": 2,
+  "fields": {
+    "question": "How old are you?",
+    "datetime": "2020-08-29T06:16:33.093Z"
+  }
+},
+{
+  "model": "poll_quiz.poll",
+  "pk": 3,
+  "fields": {
+    "question": "Where do you live?",
+    "datetime": "2020-08-29T06:17:01.441Z"
+  }
+},
+{
+  "model": "poll_quiz.poll",
+  "pk": 4,
+  "fields": {
+    "question": "How old are u?",
+    "datetime": "2020-08-29T10:04:34.554Z"
+  }
+},
+{
+  "model": "poll_quiz.poll",
+  "pk": 5,
+  "fields": {
+    "question": "How old are u?",
+    "datetime": "2020-08-29T10:08:34.299Z"
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 1,
+  "fields": {
+    "option_txt": "Vasya",
+    "poll": 1
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 2,
+  "fields": {
+    "option_txt": "Ivan",
+    "poll": 1
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 3,
+  "fields": {
+    "option_txt": "Sergei",
+    "poll": 1
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 4,
+  "fields": {
+    "option_txt": "18",
+    "poll": 2
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 5,
+  "fields": {
+    "option_txt": "20",
+    "poll": 2
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 6,
+  "fields": {
+    "option_txt": "25",
+    "poll": 2
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 7,
+  "fields": {
+    "option_txt": "Bishkek",
+    "poll": 3
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 8,
+  "fields": {
+    "option_txt": "Moscow",
+    "poll": 3
+  }
+},
+{
+  "model": "poll_quiz.choice",
+  "pk": 9,
+  "fields": {
+    "option_txt": "Omsk",
+    "poll": 3
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$ihOJ4vLFNb7A$nE0e6M/4SKL8LhT5Jhnv6+xPw/ZC8WTMrIjddW3sr1s=",
+    "last_login": "2020-08-29T06:11:28.512Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-08-29T06:11:19.213Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
