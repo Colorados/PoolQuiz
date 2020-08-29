@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}View{% endblock %}
+
+{% block menu %}
+    <li><a href="{% url 'poll_edit' poll.pk %}">EDIT</a></li>
+    <li><a href="{% url 'poll_delete' poll.pk %}">DELETE</a></li>
+{% endblock %}
+
+{% block content %}
+    <h1>New Poll:</h1>
+    <h2>{{ poll.question }}</h2>
+    <p>Date: {{ poll.datetime|date:'d.m.Y H:i:s' }}</p>
+{% endblock %}
